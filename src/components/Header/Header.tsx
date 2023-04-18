@@ -116,7 +116,7 @@ const Header: React.FunctionComponent = (): React.ReactElement => {
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#3a9d87]'>
                 <a
                     className='flex justify-between items-center w-full text-gray-300'
-                    href='https://hh.kz/resume/e1de8ddbff0bcfe5f20039ed1f767465743745'
+                    href='https://hh.kz/resume/46ae2921ff0be750ca0039ed1f3050574c7653'
                     target="_blank"
                 >
                     Resume <BsFillPersonLinesFill size={30} />
