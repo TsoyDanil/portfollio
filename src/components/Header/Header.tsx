@@ -39,11 +39,11 @@ const Header: React.FunctionComponent = (): React.ReactElement => {
                     Skills
                 </Link>
             </li>
-            <li>
+            {/* <li>
                 <Link to='work' smooth={true} duration={500}>
                     Work
                 </Link>
-            </li>
+            </li> */}
             <li>
                 <Link to='contact' smooth={true} duration={500}>
                     Contact
@@ -98,7 +98,8 @@ const Header: React.FunctionComponent = (): React.ReactElement => {
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
                 <a
                     className='flex justify-between items-center w-full text-gray-300'
-                    href='/'
+                    href='https://www.linkedin.com/in/danil-tsoy-2b0a3926a/'
+                    target="_blank"
                 >
                     Linkedin <FaLinkedin size={30} />
                 </a>
@@ -106,7 +107,8 @@ const Header: React.FunctionComponent = (): React.ReactElement => {
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
                 <a
                     className='flex justify-between items-center w-full text-gray-300'
-                    href='/'
+                    href='https://github.com/TsoyDanil'
+                    target="_blank"
                 >
                     Github <FaGithub size={30} />
                 </a>
@@ -122,7 +124,8 @@ const Header: React.FunctionComponent = (): React.ReactElement => {
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
                 <a
                     className='flex justify-between items-center w-full text-gray-300'
-                    href='/'
+                    href='https://hh.kz/resume/e1de8ddbff0bcfe5f20039ed1f767465743745'
+                    target="_blank"
                 >
                     Resume <BsFillPersonLinesFill size={30} />
                 </a>

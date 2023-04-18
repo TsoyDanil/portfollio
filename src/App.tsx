@@ -3,6 +3,7 @@ import Header from "./components/Header/Header";
 import MainPage from "./components/MainPage/MainPage";
 import SkillsPage from "./components/SkillsPage/SkillsPage";
 import AboutPage from "./components/AboutPage/AboutPage";
+import ContactsPage from "./components/ContactsPage/ContactsPage";
 
 const App: FunctionComponent = (): ReactElement => {
   return(
@@ -11,6 +12,7 @@ const App: FunctionComponent = (): ReactElement => {
       <MainPage/>
       <AboutPage/>
       <SkillsPage/>
+      <ContactsPage/>
     </div>
   )
 }
